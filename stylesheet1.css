@@ -30,6 +30,7 @@ img{
     padding: 5px;
     margin: auto;
     object-fit: contain;
+    max-height: 488px;
 }
 
 h1{
@@ -153,5 +154,10 @@ footer{
         margin: auto;
         
     }
+
+    img{
+        max-height: 1200px;
+    }
+    
 
 }
