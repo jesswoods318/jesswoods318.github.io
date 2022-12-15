@@ -1,0 +1,155 @@
+.large{
+    display: none;
+    visibility: hidden;
+}
+
+.small{
+    display: block;
+    visibility: visible;
+}
+
+.navbar{
+    background-color: #f9aaeb;
+}
+
+.navbar a{
+    color: #242424;
+    font-family: 'EB Garamond', sans-serif;
+    font-size: 24px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#logo {
+    font-family: 'Bree Serif', sans-serif;
+}
+
+img{
+    height: 80%;
+    max-width: 100%;
+    padding: 5px;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Bree Serif', sans-serif;
+}
+
+.row
+{
+    height: 80%;
+}
+
+h3{
+    text-align: center;
+    font-family: 'Bree Serif', sans-serif;
+}
+
+p{
+    text-align: center;
+    font-family: 'EB Garamond', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.article{
+    margin: 10px 5px;
+    width: 100%;
+}
+
+.container{
+    max-width: 1600px;
+}
+
+.icon{
+    height: 44px;
+    width: 44px;
+}
+
+footer{
+    position:fixed;
+   left:0px;
+   bottom:0px;
+   height:50px;
+   width:100%;
+    background-color: #f9aaeb;
+    margin-bottom: 0px;
+}
+
+.social{
+    text-align: center;
+    margin-top: 2px;
+}
+
+.final{
+    margin-bottom:40px;
+}
+
+.content{
+    max-width: 80%;
+    margin: auto;
+    padding-bottom: 10px;
+}
+
+.picture{
+    margin: auto;
+    max-width: 400px;
+}
+
+.picture img{
+    margin: 10px;
+}
+
+.backbutton{
+    font-family: 'Bree Serif', sans-serif;
+    width: 200px;
+    height: 50px;
+    margin: 30px;
+    background-color: #f9aaeb;
+    line-height: 50px;
+}
+
+.backbutton a{
+    text-align: center;
+    color: #242424;
+    text-decoration: none;
+    display: block;
+    font-size:24px;
+}
+
+@media only screen and (min-width: 768px) {
+    .social{
+        text-align: right;
+        margin-right: 20px;
+        margin-top: 2px;
+    }
+
+    .large{
+        display: block;
+        visibility: visible;
+    }
+
+    .small{
+        display: none;
+        visibility: hidden;
+    }
+
+    .article{
+        margin: 10px 5px;
+        width: 100%;
+        padding-bottom: -220px;
+    }
+    
+    .picture{
+        margin: auto;
+        max-width: 500px;
+        width: 500px;
+    }
+
+    .content{
+        max-width: 800px;
+        margin: auto;
+        
+    }
+
+}
