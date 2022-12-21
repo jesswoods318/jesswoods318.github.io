@@ -118,10 +118,15 @@ footer {
 .backbutton {
     font-family: 'Bree Serif', sans-serif;
     width: fit-content;
-    height: fit-content;
+    height: 50px;
     margin: 16px;
     background-color: #f9aaeb;
     line-height: 50px;
+}
+
+.backbutton a{
+    padding: 0px 8px;
+    font-size: 10px;
 }
 
 a {
@@ -134,8 +139,7 @@ a {
     color: #242424;
     text-decoration: none;
     display: block;
-    font-size: 18px;
-    padding: 0px 8px;
+    font-size: 24px;
 }
 
 .content p {
@@ -198,6 +202,7 @@ a {
     .content {
         max-width: 1200px;
         margin: auto;
+
     }
 
     img {
