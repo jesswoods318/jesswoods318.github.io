@@ -166,14 +166,12 @@ a {
 }
 
 #aboutme {
-    margin: 0px 15px;
     text-align: left;
-    max-width: 1200px;
     margin: auto;
     margin-top: 0px;
-    margin-left: 4%;
-    margin-right: 4%;
-    margin-bottom: 20%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 10%;
 }
 
 @media only screen and (min-width: 768px) {
@@ -246,11 +244,11 @@ a {
     }
 
     #aboutme {
-        margin: 0px 15px;
-        text-align: left;
-        max-width: 1200px;
-        margin: auto;
-        margin: 0px 20%;
+        text-align: center;
+        margin-top: 0px;
+        margin-left: 10%;
+        margin-right: 15%;
+        margin-bottom: 15%;
     }
     
 }
