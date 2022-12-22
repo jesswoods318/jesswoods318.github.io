@@ -168,6 +168,9 @@ a {
 #aboutme {
     margin: 0px 15px;
     text-align: left;
+    max-width: 1200px;
+    margin: auto;
+    margin: 0px 7%;
 }
 
 @media only screen and (min-width: 768px) {
@@ -237,6 +240,14 @@ a {
     .info img {
         display: block;
         visibility: visible;
+    }
+
+    #aboutme {
+        margin: 0px 15px;
+        text-align: left;
+        max-width: 1200px;
+        margin: auto;
+        margin: 0px 20%;
     }
     
 }
