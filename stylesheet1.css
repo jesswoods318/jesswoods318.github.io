@@ -170,7 +170,10 @@ a {
     text-align: left;
     max-width: 1200px;
     margin: auto;
-    margin: 0px 7%;
+    margin-top: 0px;
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-bottom: 20%;
 }
 
 @media only screen and (min-width: 768px) {
